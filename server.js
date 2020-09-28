@@ -50,19 +50,19 @@ client.on("guildMemberAdd", member => {
     )
     .addField(":shield:|𝐒𝐄𝐑𝐕𝐄𝐑：", `${member.guild.name}`, true)
     .setImage(
-      " "
+      "https://media.discordapp.net/attachments/673233508545855518/718592518803161125/UTfeNPSeqH.gif "
     )
     .setFooter(`◢${member.guild.name}◣`)
     .setTimestamp();
 
   channel.sendEmbed(embed);
 
-  client.login("NzU5NTA4NDc5NTkyNDk3MTcy.X2-hZA.ErIKsL2D-ArHVex4trHmZNtuWDQ");
+  client.login("NzU5NTA5NDA5NjU4MzA2NjEx.X2-iQg.a-V3rV106k_E1umz2_85xNVfymo ");
 });
 
 //////////////////////
 client.on("guildMemberRemove", member => {
-  let channel = member.guild.channels.find("name", "𝙇𝙀𝙁𝙏");
+  let channel = member.guild.channels.find("name", "lift");
   let memberavatar = member.user.avatarURL;
   if (!channel) return;
   let embed = new Discord.RichEmbed()
@@ -83,4 +83,4 @@ client.on("guildMemberRemove", member => {
 
 ///////////////////
 
-client.login("NzU5NTA5NDA5NjU4MzA2NjEx.X2-iQg.dGvCbhAXH4V9j2EiIrnsUjnTB3Q");
+client.login("NzU5NTA5NDA5NjU4MzA2NjEx.X2-iQg.a-V3rV106k_E1umz2_85xNVfymo");
